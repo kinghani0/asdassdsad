@@ -25,7 +25,7 @@ const sql = require("sqlite");
 ,spee={}; 
 
 client.on('message', message => {
- var prefix = "-";
+ var prefix = "!";
 if (message.content.startsWith(prefix + 'help')) {
     let pages = [
 	`=-=-=-=-=-= 🌍 Public Commands - اوامر عامة 🌍 =-=-=-=-=-=
@@ -2112,4 +2112,4 @@ client.on("message", message => {
 });
 
 // THIS  MUST  BE  THIS  WAY
-client.login(process.env.BOT_TOKEN);
+client.login('NTc0NzA3NTAzOTYzODMyMzIx.XM9brw.s2E_DivTi_QbRxH-w1m3okoWEjE');
